@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+width:100%;
+height: 100%;
+
+}
+#center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+	height: 50%;
+	background-color:#2596be ;
+	border-radius: 5px;
+	
+}
+.imagediv{
+	position: absolute;
+width: 150px;
+height:150px ;
+
+overflow: hidden;
+border-radius: 5px;
+
+}
+.imagediv img{
+	/*transform: translateY(100%);*/
+	transform: translateY(100%);
+width: 100%;
+height: 100%;
+object-fit:cover ;
+
+}
+#center h3{
+text-align: center;
+position:relative;
+top: 50%;
+
+}
+#center h1{
+text-align: center;
+position: relative;
+
+top: 50%;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
